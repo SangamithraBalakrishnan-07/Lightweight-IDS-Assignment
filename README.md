@@ -35,7 +35,7 @@ Canadian Institute for Cybersecurity
 [https://www.unb.ca/cic/datasets/ids-2018.html](https://www.unb.ca/cic/datasets/ids-2018.html)
 
 Use the “Processed Traffic Data for ML Algorithms” folder from the dataset, which contains CSV files for each day of captured traffic.
-
+Note: The full merged dataset (~7 GB) was excluded from the GitHub repository due to file size limits.
 ---
 
 ## ⚙️ Folder Structure  
@@ -44,7 +44,7 @@ Use the “Processed Traffic Data for ML Algorithms” folder from the dataset, 
 Lightweight-IDS-Assignment/
 │
 ├── data/
-│   └── merged_dataset.csv                 # Optional smaller dataset for testing
+│   └── merged_dataset.csv                 # Note: The full merged dataset (~7 GB) was excluded from the GitHub repository due to file size limits.
 │
 ├── notebooks/
 │   ├── data_preprocessing.py       # Data cleaning, encoding, saving
